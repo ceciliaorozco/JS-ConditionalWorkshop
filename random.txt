@@ -1,0 +1,12 @@
+JS NOTES
+
+1. `function checkVotingEligibility(age) { ... }`: 
+PARAMETER, `age`, --- person's age. 
+ `if` STATEMENT --- checks if the `age` is >= 18. 
+CONDITION = TRUE --- "You are eligible to vote!". 
+OTHERWISE 'else' --- "Sorry, you are not eligible to vote yet."
+
+2. `document.getElementById("checkButton").addEventListener("click", function () { ... })
+ATTACHES --- event listener & HTML (ID "checkButton). 
+LISTENS --- "click" event on that element = FUNCTION EXECTUDED.
+
